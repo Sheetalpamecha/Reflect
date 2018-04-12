@@ -27,14 +27,23 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If we are offline We can easily check what are the changes happen in remote
+    And comparing the local remote and remote on github we can get a log of what
+    new changes are done to the repo.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Using Google Docs. Google Docs are great for collaboration, but I don't know 
+    a good version of Google Docs for code. Even if I did, I would be hesitant to 
+    use this approach on code that it's important to keep bug-free.I would be 
+    worried that someone else would add a change that combined with my change to 
+    make a bug, and I might not even notice their change!
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+       I tend to work directly in master more often when I'm working on my own or
+    with just one or two other people.  When working with a large group, though,
+    using branches to keep track of which changes have already been reviewed and
+    approved is extremely helpful.
